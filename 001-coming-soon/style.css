@@ -1,0 +1,60 @@
+body {
+	font-family: 'inconsolata', monospace;
+	background-color: #fafafa;
+	color: #212121;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+}
+
+a {
+	color: #C62828;
+}
+
+.tagline {
+	font-weight: bold;
+}
+
+@media (max-width: 535px)  {
+	h2 {
+		font-size: 1.2em;
+	}
+
+}
+
+@media (max-width: 431px)  {
+	header {
+		max-width: 98%;
+	}
+	h2 {
+		font-size: 1em;
+	}
+
+}
+
+@media (max-width: 356px)  {
+	h2 {
+		font-size: 1em;
+	}
+
+}
+
+
+header {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+article {
+	max-width: 90%;
+	margin: 0 auto;
+	padding-bottom: 2em;
+}
+
+footer {
+	background-color: #393736;
+}
+
+img {
+	max-width: 100%;
+}
